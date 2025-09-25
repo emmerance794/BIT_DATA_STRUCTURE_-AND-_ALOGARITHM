@@ -1,0 +1,53 @@
+# Practical 1: UR pushes and undoes one
+stack = []  
+
+# Push operations
+stack.append("LectureX")
+stack.append("LectureY")
+stack.append("LectureZ")
+print("Stack after pushes:", stack)
+
+# Undo one (pop)
+stack.pop()
+print("Stack after undo:", stack)
+
+# Check the top
+print("Top element:", stack[-1])
+
+#practical2: push and undo all
+stack = []
+# push operations
+stack.append("stepx")
+stack.append("stepy")
+stack.append("stepz")
+print("stack after pushes",stack)
+
+#pop operation and undo all
+stack.pop()
+stack.pop()
+stack.pop()
+print("stack after undo all",stack)
+
+# challenges: in a clear alogarithimic seqwence and explained step by step alongside the code lines
+# step1:start with empty stack
+stack = []
+
+# step2: push element in order(push oparations)
+stack.append("1")
+stack.append("2")
+stack.append("3")
+stack.append(4)
+print("stack after pushes:",stack)
+
+# step3:pop 3 times
+stack.pop()
+stack.pop()
+stack.pop()
+
+# step4:result
+print("remaining stack:",stack)
+
+
+
+
+
